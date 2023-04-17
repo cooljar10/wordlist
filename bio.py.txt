@@ -1,0 +1,40 @@
+#Information on https://docs.python.org/3/library/tkinter.html, https://docs.python.org/3/library/os.html, https://docs.python.org/3/library/webbrowser.html
+#Goal Understand the structor of the tree decode it and rebuild it 
+
+import tkinter as tk
+from tkinter import *
+import os, webbrowser
+
+
+
+
+#Package Installer
+
+def Package():
+   try:
+       Media()
+    else:
+        os.system("pip3 install tkinter webbrowser")
+        Media()
+Package()
+
+
+
+
+
+
+#Social Media Search
+
+root = tk.Tk()
+root.title('Social Media Keyword Database')
+socials = []
+
+
+def Media():
+    print(Facebook.get())
+    if facebook.get():
+        keyword = e.get()
+        webbrowser.open('https://www.facebook.com/search/top/?q='+ keyword)
+        webbrowser.open('https://www.facebook.com/page/124299671596193/search/?q='+ keyword)
+Media()
+        
